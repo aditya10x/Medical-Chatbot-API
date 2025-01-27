@@ -1,0 +1,53 @@
+COMPLETE BACKEND:-
+medical book= data extraction
+lhama input 4026 ( fixed input length of all gpts)
+creating chunks from the data extracted from book 
+c1 c2 c3
+embedding model to generate various vector embedding 
+a symetic index build from embedded vectors
+symmetic index== knowledge base (pinccone vector data base)
+
+USER PROCESSING FRONTEND:-
+user asks a query'
+query embedded
+goes to knowledge base
+rank result is returned
+an LLM is used eg openai gemini etc 
+query and ranked result will go to LLM 
+correct response generated 
+
+APPARATUS:
+OpenAI LLM
+LangChain
+Pinecone = vector database
+Flask 
+Github
+Cloud- AWS/Simple and CICD deployement
+
+
+In anaconda prompt
+conda create -n medibot python=3.10 -y
+conda activate medibot
+
+INSTALLING 
+sentence-transformer==2.2.2  
+    open source embedded model used for vector embedding generation 
+langchain
+flask for user interface
+pypdf for pdf
+python-dotenv for dotenv file where we mention openai and pinecone credential 
+pinecone[grpc]
+langchain_community
+langchain_openai
+langchain_experimental
+
+always create a project folder structure for any work u do  
+
+init file== constructur file OOPS
+magic function which excecute auto
+
+
+
+
+
+
